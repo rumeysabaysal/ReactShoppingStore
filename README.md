@@ -1,13 +1,22 @@
-Higher Order Components
-React içerisinde yer alan HOC(Higher Order Components) yapısı ile bileşenleri kod tekrarına düşmeden oluşturabiliriz.
+# 🛍️ React Shopping Store
+![ekrangif](https://github.com/user-attachments/assets/bbaec88f-c76b-4047-914a-4765e145b3a4)
 
-Bir hoc oluşturulurken bunu self closing bir component şeklinde değilde bir Html tagi şeklinde oluştururuz.
+Bu projede, React ve çeşitli güçlü kütüphaneleri kullanarak modern bir alışveriş sitesi oluşturdum.
 
-Context
-Birden fazla bileşende verileri yönetmek istersek bunu props aktarımı ile yapabiliriz.Ama bu aktarım sırasında veri yönetimi bizim için zorlayıcı olacaktır.Çünkü props aktarımı parent elemanda chiled'a doğru gerçekleşir.Bu sebeple tüm verileri App.jsx'de tutup sonrasında alt bileşen -> alt bileşen şeklinde props geçmemiz gerekir.Bu noktada bu zorluğun üstesinden gelmek için Context yapısı kullanılır.Bu yapıda App dışarısında uygulamanın herhangi bir bileşenine bağlı olmayan context yapıları oluşturulur.
-Context Yapısı Nasıl Oluşturulur ?
-İlk olarak react içerisinden createContext adında bir metot çağırılır.Sonrasında bu yapı bir değişkene atanır.
+# 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
 
-createContext'in atandığı yapı kullanılarak bir Hoc oluşturulur.Bu component'e context içerisinde kullanılacak değerler value={{}} içerisinde verilir.
+- React: Kullanıcı arayüzünü oluşturmak için.
+- React Router: Sayfa yönlendirmeleri için.
+- Axios: API entegrasyonu ve veri çekme işlemleri için.
+- React Toastify: Bildirim tasarımı ve işlevselliği için.
+- Bootstrap: Duyarlı ve şık tasarımlar için.
+- React Icons: Modern ve özelleştirilebilir ikonlar için.
 
-Oluşturulan bu Hoc tüm uygulamayı(App) sarmalar.# ReactShoppingStore
+
+# 🎨 Özellikler
+
+- 🛒 Ürün Listeleme: Dinamik ve filtrelenebilir ürün listesi.
+- 🔄 Sayfa Yönlendirme: React Router ile kullanıcı dostu navigasyon.
+- 🔔 Bildirim Sistemi: React Toastify ile etkileşimli bildirimler.
+- 🌟 Duyarlı Tasarım: Bootstrap ile her cihaza uyumlu arayüz.
+- ⚡ API Entegrasyonu: Axios ile gerçek zamanlı veri çekme.
