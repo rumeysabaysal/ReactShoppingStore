@@ -15,8 +15,10 @@ Bu projede, React ve çeşitli güçlü kütüphaneleri kullanarak modern bir al
 
 # 🎨 Özellikler
 
-- 🛒 Ürün Listeleme: Dinamik ve filtrelenebilir ürün listesi.
-- 🔄 Sayfa Yönlendirme: React Router ile kullanıcı dostu navigasyon.
-- 🔔 Bildirim Sistemi: React Toastify ile etkileşimli bildirimler.
-- 🌟 Duyarlı Tasarım: Bootstrap ile her cihaza uyumlu arayüz.
-- ⚡ API Entegrasyonu: Axios ile gerçek zamanlı veri çekme.
+- Ürün Listeleme: Dinamik ve filtrelenebilir ürün listesi.
+- Sayfa Yönlendirme: React Router ile kullanıcı dostu navigasyon.
+- Bildirim Sistemi: React Toastify ile etkileşimli bildirimler.
+- Duyarlı Tasarım: Bootstrap ile her cihaza uyumlu arayüz.
+- API Entegrasyonu: Axios ile gerçek zamanlı veri çekme.
+
+# Beğendiyseniz repoya ⭐ bırakmayı unutmayın! 😉
